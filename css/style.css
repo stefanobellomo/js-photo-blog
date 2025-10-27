@@ -16,6 +16,7 @@
   --ff-date: 'Sometype Mono', monospace;
 }
 
+
 /* ----IMAGE BACKGROUND--- */
 
 #base-header{
@@ -37,13 +38,11 @@ h1{
 /* ---MAIN--- */
 
 #row-cards{
-    display: flex;
-    height: 100%;
-    flex-wrap: wrap;
-}
-.col-photo{  
-    width: calc(100% / 3);
-    padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .font-type{
@@ -55,6 +54,7 @@ h1{
 .card-photo{
     background-color: white;
     position: relative;
+    width: calc(100% / 4)
 }
 
 .card-img{
