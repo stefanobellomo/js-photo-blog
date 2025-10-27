@@ -26,6 +26,7 @@ function createCard(data) {
     rowCardsEl.append(cardEl)
 })
 }
+
 const rowCardsEl = document.getElementById('row-cards')
 
 
