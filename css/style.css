@@ -7,7 +7,6 @@
 }
 
 .debug{
-    height: 300px;
 }
 
 /* ---UTILIES--- */
@@ -36,3 +35,37 @@ h1{
 }
 
 /* ---MAIN--- */
+
+#row-cards{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.col-photo{  
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+
+.font-type{
+    font-family: var(--ff-date);
+    font-size: 0.5rem;
+    padding: 0 0.4rem;
+}
+
+.card-photo{
+    background-color: white;
+    position: relative;
+}
+
+.card-img{
+    padding: 0.4rem;
+}
+
+.pin{
+    position: absolute;
+    display: flex;
+    height: 1rem;
+    top: -7px;
+    left: 45%;
+}
+
