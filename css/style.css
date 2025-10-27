@@ -1,14 +1,23 @@
+/* ---GENERAL---*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.debug{
+    height: 300px;
+}
+
+/* ---UTILIES--- */
+
 :root {
   --ff-title: 'Edu TAS Beginner', sans-serif;
   --ff-date: 'Sometype Mono', monospace;
 }
 
+/* ----IMAGE BACKGROUND--- */
 
 #base-header{
     background-image: url(/img/wall.png);
@@ -17,10 +26,13 @@
 
 #base-main{
     background-image: url(/img/cork.png);
-    height: 200px;
 }
+
+/* ---HEADER--- */
 
 h1{
     font-family: var(--ff-title);
     margin: 0;
 }
+
+/* ---MAIN--- */
