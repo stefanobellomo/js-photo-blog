@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --ff-title: 'Edu TAS Beginner', sans-serif;
+  --ff-date: 'Sometype Mono', monospace;
+}
+
+h1{
+    font-family: var(--ff-title);
+}
