@@ -98,9 +98,13 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
     cursor: pointer;
-    background-size: 500px auto;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+#imgOver.active {
+  max-width: 60%;
+  max-height: 80%;
+  display: block;
+  margin: 15% auto;
 }
 
 #overlay.active {
@@ -111,7 +115,7 @@ h1 {
     display: none;
     position: fixed;
     top: 5%;
-    left: 45%;
+    left: 40%;
     background-color: white;
     color: black;
     padding: 6px 14px;

@@ -1,6 +1,9 @@
 const rowCardsEl = document.getElementById('row-cards')
 const overlayEl = document.getElementById('overlay')
 const escEl = document.getElementById('esc')
+const imgOver = document.createElement('img')
+imgOver.id = 'imgOver'
+overlayEl.append(imgOver)
 
 function createCard(data) {
 
@@ -27,19 +30,20 @@ function createCard(data) {
 
         cardEl.append(pinEl, imgEl, dateEl, titleEl)
         rowCardsEl.append(cardEl)
-
+        
         imgEl.addEventListener('click', () => {
             overlayEl.classList.add('active')
-            overlayEl.style.backgroundImage = `url(${thispolaroid.url})`
+            imgOver.classList.add('active')
+            imgOver.src = thispolaroid.url
             escEl.classList.add('active')
+        })
+
+        escEl.addEventListener('click', () => {
+            escEl.classList.remove('active')
+            overlayEl.classList.remove('active')
         })
     })
 }
-
-escEl.addEventListener('click', () => {
-    escEl.classList.remove('active')
-    overlayEl.classList.remove('active')
-})
 
 fetch('https://lanciweb.github.io/demo/api/pictures/')
     .then(response => response.json())
