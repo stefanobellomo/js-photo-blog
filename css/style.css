@@ -90,8 +90,8 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
     cursor: pointer;
-    background-size: 500px auto;        
-    background-repeat: no-repeat;  
+    background-size: 500px auto;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -99,7 +99,7 @@ h1 {
     display: block;
 }
 
-#esc{
+#esc {
     display: none;
 }
 
@@ -114,10 +114,9 @@ h1 {
     z-index: 3;
 }
 
-#esc.active{
+#esc.active {
     display: block;
 }
-
 
 /* ---MEDIA QUERY--- */
 
