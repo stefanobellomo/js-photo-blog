@@ -3,7 +3,8 @@ const overlayEl = document.getElementById('overlay')
 const escEl = document.getElementById('esc')
 const imgOver = document.createElement('img')
 imgOver.id = 'imgOver'
-overlayEl.append(imgOver)
+overlayEl.append(escEl, imgOver)
+
 
 function createCard(data) {
 
