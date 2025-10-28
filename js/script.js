@@ -46,22 +46,3 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
     .then(data => {
         createCard(data)
     })
-
-
-
-
-
-// const overlayEl = document.getElementById('overlay')
-// const imgField = document.getElementById('test')
-// const escEl = document.getElementById('esc')
-// imgField.addEventListener('click', () => {
-//     overlayEl.classList.add('active')
-//     imgField.src = './img/pin.svg'
-//     escEl.classList.add('active')
-// })
-
-// escEl.addEventListener('click', () => {
-//     escEl.classList.remove('active')
-//     overlayEl.classList.remove('active')
-//     imgField.src = './img/test.png'
-// })
