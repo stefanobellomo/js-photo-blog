@@ -39,7 +39,6 @@ function createCard(data) {
 escEl.addEventListener('click', () => {
     escEl.classList.remove('active')
     overlayEl.classList.remove('active')
-    imgEl.src = ''
 })
 
 fetch('https://lanciweb.github.io/demo/api/pictures/')
